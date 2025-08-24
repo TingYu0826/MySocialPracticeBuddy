@@ -1,9 +1,4 @@
-//
-//  MySocialPracticeBuddyApp.swift
-//  MySocialPracticeBuddy
-//
-//  Created by 陳亭瑜 on 2025/8/24.
-//
+//App 進入點，載入 ContentView 並注入 AppState
 
 import SwiftUI
 
@@ -12,6 +7,7 @@ struct MySocialPracticeBuddyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tint(DS.primaryBlue) // 使用我們的 DesignSystem 主色
         }
     }
 }
